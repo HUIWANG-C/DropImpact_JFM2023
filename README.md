@@ -6,7 +6,7 @@ In order to run the simulation, please check and install the open-source finite-
 Please be aware that the code may fail to compile or run depending on the software version.
 
 For compiling the code:  
-*CC99='mpicc -std=c99' qcc -Wall -O2 -D_MPI=1 drop.c -o drop -L$BASILISK/gl -lglutils -lfb_tiny -lm*  
+`CC99='mpicc -std=c99' qcc -Wall -O2 -D_MPI=1 drop.c -o drop -L$BASILISK/gl -lglutils -lfb_tiny -lm`  
 
 Run the code in parallel:  
-*mpirun -np 4 ./drop*
+`mpirun -np 4 ./drop`
