@@ -19,7 +19,7 @@ If you use this code or data, please cite the following:
 To run the simulation, please check and install the open-source finite-volume adaptive [Basilisk](http://basilisk.fr/) solver.  
 Please note that the code may not compile or run correctly depending on the software version.
 
-### 🛠️ For compiling the code:  
+### 🛠️ For compiling the code in parallel:  
 `CC99='mpicc -std=c99' qcc -Wall -O2 -D_MPI=1 drop.c -o drop -L$BASILISK/gl -lglutils -lfb_tiny -lm`  
 
 ### ▶️ Run the code in parallel:  
